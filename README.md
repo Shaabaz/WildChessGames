@@ -1,2 +1,2 @@
 # WildChessGames
-This is a simple black and white wesite containing some well-played games by Shaabaz Khan.
+This is a simple wesite containing some well-played games by Shaabaz Khan (also known as ChessMasterShaabaz2011 on Chess.com and ChessLegendShaabaz on ChessKid.
