@@ -158,6 +158,27 @@
                     ).style.height = `${e["data"]["frameHeight"] + 30}px`);
             });
         </script>
+        <iframe
+            id="10374989"
+            allowtransparency="true"
+            frameborder="0"
+            style="width: 100%; border: none"
+            src="//www.chess.com/emboard?id=10374989"></iframe>
+        <script>
+            window.addEventListener("message", (e) => {
+                e["data"] &&
+                    "10374989" === e["data"]["id"] &&
+                    document.getElementById(`${e["data"]["id"]}`) &&
+                    (document.getElementById(
+                        `${e["data"]["id"]}`
+                    ).style.height = `${e["data"]["frameHeight"] + 30}px`);
+            });
+        </script>
+        <h3>
+            I know this game above ended in a draw but I added this to show you
+            how to draw a losing position (Just Do Nothing!). Plus, it was
+            against an 1800 rated player so I'm happy with a draw against that.
+        </h3>
         <h4>
             Hope you enjoyed my games! You can always review them at the
             chess.com website if needed and as always, learn but don't forget
