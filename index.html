@@ -255,6 +255,22 @@
                     ).style.height = `${e["data"]["frameHeight"] + 30}px`);
             });
         </script>
+        <iframe
+            id="10386185"
+            allowtransparency="true"
+            frameborder="0"
+            style="width: 100%; border: none"
+            src="//www.chess.com/emboard?id=10386185"></iframe>
+        <script>
+            window.addEventListener("message", (e) => {
+                e["data"] &&
+                    "10386185" === e["data"]["id"] &&
+                    document.getElementById(`${e["data"]["id"]}`) &&
+                    (document.getElementById(
+                        `${e["data"]["id"]}`
+                    ).style.height = `${e["data"]["frameHeight"] + 30}px`);
+            });
+        </script>
         <h4>
             Hope you enjoyed my games! You can always review them at the
             chess.com website if needed and as always, learn but don't forget
