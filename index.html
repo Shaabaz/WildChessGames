@@ -3,9 +3,8 @@
     <head>
         <link rel="stylesheet" href="style.css" />
         <title>
-            My Wild But Good Games On Chess.com (Includes Queen BLUNDERS on
-            accident) P.S. I don't like colour, I am a black and white person;
-            one reason why I like chess.
+            My Wild But Good Games On Chess.com and Lichess.org(Includes Queen BLUNDERS on
+            accident).
         </title>
     </head>
     <body>
@@ -297,6 +296,22 @@
             window.addEventListener("message", (e) => {
                 e["data"] &&
                     "10389585" === e["data"]["id"] &&
+                    document.getElementById(`${e["data"]["id"]}`) &&
+                    (document.getElementById(
+                        `${e["data"]["id"]}`
+                    ).style.height = `${e["data"]["frameHeight"] + 30}px`);
+            });
+        </script>
+        <iframe
+            id="10390003"
+            allowtransparency="true"
+            frameborder="0"
+            style="width: 100%; border: none"
+            src="//www.chess.com/emboard?id=10390003"></iframe>
+        <script>
+            window.addEventListener("message", (e) => {
+                e["data"] &&
+                    "10390003" === e["data"]["id"] &&
                     document.getElementById(`${e["data"]["id"]}`) &&
                     (document.getElementById(
                         `${e["data"]["id"]}`
