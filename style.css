@@ -1,5 +1,5 @@
 html {
-    background-color: darkblue;
+    background-color: darkcyan;
     font-weight: bold;
     font-family: cursive;
     text-align: center;
@@ -10,11 +10,10 @@ iframe {
     border-style: groove;
     border-color: blue;
     margin: auto;
+    background-color: darkcyan;
 }
 
-h4 && h5 {
-    color: white;
+p {
+    color: ghostwhite;
+    margin: auto;
 }
-
-
-    
